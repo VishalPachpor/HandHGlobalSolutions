@@ -30,7 +30,11 @@ export default function RootLayout({
         className={`font-sans ${GeistSans.variable} ${GeistMono.variable}`}
         suppressHydrationWarning
       >
-        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+        <ThemeProvider
+          attribute="class"
+          forcedTheme="light"
+          enableSystem={false}
+        >
           <Suspense fallback={null}>{children}</Suspense>
         </ThemeProvider>
         <Analytics />

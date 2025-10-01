@@ -15,7 +15,7 @@ export function TeamSection() {
     {
       name: "Hrushikesh Dakshinkar",
       role: "Founding Team / Operations",
-      imageSrc: "/founder.jpeg",
+      imageSrc: "/team1.jpg",
       linkedInUrl: "https://www.linkedin.com/in/hrushikesh-dakshinkar08082003/",
     },
   ];
@@ -47,7 +47,7 @@ export function TeamSection() {
                   alt={m.name}
                   width={112}
                   height={112}
-                  className="h-28 w-28 object-cover"
+                  className="h-28 w-28 object-cover object-top"
                 />
               </div>
               <h3 className="text-lg font-semibold text-foreground">
