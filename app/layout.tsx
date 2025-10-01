@@ -8,10 +8,15 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 
 export const metadata: Metadata = {
-  title: "GoModer - Financial Services & Consultancy",
+  title: "H&S Global Services",
   description:
     "Professional mortgage, banking, and insurance consultancy services. Expert financial guidance for your business needs.",
-  generator: "v0.app",
+  generator: "Vishal Patil",
+  icons: {
+    icon: "/image.png",
+    shortcut: "/image.png",
+    apple: "/image.png",
+  },
 };
 
 export default function RootLayout({
