@@ -1,29 +1,28 @@
-import {
-  Building2,
-  Phone,
-  Mail,
-  MapPin,
-  Linkedin,
-  Twitter,
-  Facebook,
-} from "lucide-react";
+import { Phone, Mail, MapPin, Linkedin, Twitter, Facebook } from "lucide-react";
+import Image from "next/image";
 
 export function Footer() {
   return (
     <footer className="bg-slate-900 text-white">
-      <div className="container mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+      <div className="container mx-auto px-25 py-5">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-y-4 gap-x-0">
           {/* Company Info */}
-          <div className="space-y-4">
-            <div className="flex items-center space-x-2">
-              <Building2 className="h-8 w-8 text-teal-400" />
-              <span className="text-2xl font-bold">HS Global Solutions</span>
+          <div className="space-y-3">
+            <div className="flex flex-col gap-2 mb-2">
+              <Image
+                src="/image.png"
+                alt="H&S Global Services"
+                width={120}
+                height={20}
+                className="mb-[-30px]"
+                priority
+              />
+              <p className="text-slate-300 text-sm leading-relaxed">
+                Your trusted partner in mortgage, banking, and insurance
+                solutions. We provide expert financial guidance to help you
+                achieve your goals.
+              </p>
             </div>
-            <p className="text-slate-300 text-sm leading-relaxed">
-              Your trusted partner in mortgage, banking, and insurance
-              solutions. We provide expert financial guidance to help you
-              achieve your goals.
-            </p>
             <div className="flex space-x-4">
               <Linkedin className="h-5 w-5 text-slate-400 hover:text-teal-400 cursor-pointer transition-colors" />
               <Twitter className="h-5 w-5 text-slate-400 hover:text-teal-400 cursor-pointer transition-colors" />

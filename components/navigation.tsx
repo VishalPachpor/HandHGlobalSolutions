@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import Image from "next/image";
 
 export function Navigation() {
   return (
@@ -7,8 +8,14 @@ export function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
-            <Link href="/" className="text-2xl font-bold text-foreground">
-              HS Global Solutions
+            <Link href="/" className="flex items-center">
+              <Image
+                src="/image.png"
+                alt="H&S Global Services"
+                width={140}
+                height={30}
+                priority
+              />
             </Link>
           </div>
 
@@ -16,19 +23,19 @@ export function Navigation() {
             <div className="ml-10 flex items-baseline space-x-8">
               <Link
                 href="/industry"
-                className="text-foreground hover:text-primary px-3 py-2 text-sm font-medium"
+                className="text-foreground hover:text-primary px-3 py-2 text-lg font-medium"
               >
                 Industry
               </Link>
               <Link
                 href="/services"
-                className="text-foreground hover:text-primary px-3 py-2 text-sm font-medium"
+                className="text-foreground hover:text-primary px-3 py-2 text-lg font-medium"
               >
                 Services
               </Link>
               <Link
                 href="/about"
-                className="text-foreground hover:text-primary px-3 py-2 text-sm font-medium"
+                className="text-foreground hover:text-primary px-3 py-2 text-lg font-medium"
               >
                 About
               </Link>
