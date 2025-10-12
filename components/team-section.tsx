@@ -22,12 +22,13 @@ export function TeamSection() {
     {
       name: "Sandesh Jagdale",
       role: "Founder",
-      imageSrc: "/sandesh.jpg",
+      imageSrc: "/sandesh.jpeg",
       email: "sandeshh.jagdale@outlook.com",
     },
   ];
 
   const isSingle = members.length === 1;
+  const isDouble = members.length === 2;
 
   return (
     <section id="team" className="py-16">
@@ -43,6 +44,8 @@ export function TeamSection() {
           className={
             isSingle
               ? "grid grid-cols-1 place-items-center"
+              : isDouble
+              ? "flex justify-center gap-8 flex-wrap"
               : "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 justify-items-center"
           }
         >
