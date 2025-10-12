@@ -24,9 +24,9 @@ export function Footer() {
               </p>
             </div>
             <div className="flex space-x-4">
-              <Linkedin className="h-5 w-5 text-slate-400 hover:text-teal-400 cursor-pointer transition-colors" />
-              <Twitter className="h-5 w-5 text-slate-400 hover:text-teal-400 cursor-pointer transition-colors" />
-              <Facebook className="h-5 w-5 text-slate-400 hover:text-teal-400 cursor-pointer transition-colors" />
+              <Linkedin className="h-5 w-5 text-slate-400 hover:text-blue-400 cursor-pointer transition-colors" />
+              <Twitter className="h-5 w-5 text-slate-400 hover:text-blue-400 cursor-pointer transition-colors" />
+              <Facebook className="h-5 w-5 text-slate-400 hover:text-blue-400 cursor-pointer transition-colors" />
             </div>
           </div>
 
@@ -37,41 +37,50 @@ export function Footer() {
               <li>
                 <a
                   href="/services"
-                  className="text-slate-300 hover:text-teal-400 transition-colors"
+                  className="text-slate-300 hover:text-blue-400 transition-colors"
                 >
-                  Mortgage Solutions
+                  Mortgage
                 </a>
               </li>
               <li>
                 <a
                   href="/services"
-                  className="text-slate-300 hover:text-teal-400 transition-colors"
+                  className="text-slate-300 hover:text-blue-400 transition-colors"
                 >
-                  Banking Services
+                  Banking
                 </a>
               </li>
               <li>
                 <a
                   href="/services"
-                  className="text-slate-300 hover:text-teal-400 transition-colors"
+                  className="text-slate-300 hover:text-blue-400 transition-colors"
                 >
-                  Insurance Coverage
+                  Insurance
                 </a>
               </li>
               <li>
                 <a
                   href="/services"
-                  className="text-slate-300 hover:text-teal-400 transition-colors"
+                  className="text-slate-300 hover:text-blue-400 transition-colors"
                 >
-                  Financial Planning
+                  Customer Support
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="/services"
+                  className="text-slate-300 hover:text-blue-400 transition-colors"
+                >
+                  Healthcare
                 </a>
               </li>
               <li>
                 <a
                   href="/services"
-                  className="text-slate-300 hover:text-teal-400 transition-colors"
+                  className="text-slate-300 hover:text-blue-400 transition-colors"
                 >
-                  Investment Advisory
+                  Logistics
                 </a>
               </li>
             </ul>
@@ -84,7 +93,7 @@ export function Footer() {
               <li>
                 <a
                   href="/about"
-                  className="text-slate-300 hover:text-teal-400 transition-colors"
+                  className="text-slate-300 hover:text-blue-400 transition-colors"
                 >
                   About Us
                 </a>
@@ -92,7 +101,7 @@ export function Footer() {
               <li>
                 <a
                   href="/about#team"
-                  className="text-slate-300 hover:text-teal-400 transition-colors"
+                  className="text-slate-300 hover:text-blue-400 transition-colors"
                 >
                   Our Team
                 </a>
@@ -100,7 +109,7 @@ export function Footer() {
               {/* <li>
                 <a
                   href="/careers"
-                  className="text-slate-300 hover:text-teal-400 transition-colors"
+                  className="text-slate-300 hover:text-blue-400 transition-colors"
                 >
                   Careers
                 </a>
@@ -111,7 +120,7 @@ export function Footer() {
               <li>
                 <a
                   href="/contact"
-                  className="text-slate-300 hover:text-teal-400 transition-colors"
+                  className="text-slate-300 hover:text-blue-400 transition-colors"
                 >
                   Contact
                 </a>
@@ -124,7 +133,7 @@ export function Footer() {
             <h3 className="text-lg font-semibold text-white">Contact Info</h3>
             <div className="space-y-3 text-sm">
               <div className="flex items-start space-x-3">
-                <MapPin className="h-4 w-4 text-teal-400 mt-0.5 flex-shrink-0" />
+                <MapPin className="h-4 w-4 text-blue-400 mt-0.5 flex-shrink-0" />
                 <span className="text-slate-300">
                   123 Financial District
                   <br />
@@ -132,14 +141,19 @@ export function Footer() {
                 </span>
               </div>
               <div className="flex items-center space-x-3">
-                <Phone className="h-4 w-4 text-teal-400 flex-shrink-0" />
+                <Phone className="h-4 w-4 text-blue-400 flex-shrink-0" />
                 <span className="text-slate-300">+1 (555) 123-4567</span>
               </div>
               <div className="flex items-center space-x-3">
-                <Mail className="h-4 w-4 text-teal-400 flex-shrink-0" />
-                <span className="text-slate-300">
-                  info@hsglobalsolutions.com
-                </span>
+                <Mail className="h-4 w-4 text-blue-400 flex-shrink-0" />
+                <a
+                  href="https://mail.google.com/mail/?view=cm&to=sandeshh.jagdale@outlook.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-slate-300 hover:text-blue-400 transition-colors"
+                >
+                  contact@hsglobalservices.xyz
+                </a>
               </div>
             </div>
           </div>

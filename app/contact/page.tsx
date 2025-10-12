@@ -54,7 +54,7 @@ export default function ContactPage() {
           </p>
 
           {success && (
-            <div className="mb-6 rounded-md border border-green-300 bg-green-50 p-4 text-green-800">
+            <div className="mb-6 rounded-md border border-blue-300 bg-blue-50 p-4 text-blue-800">
               {success}
             </div>
           )}

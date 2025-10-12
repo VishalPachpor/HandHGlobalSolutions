@@ -12,7 +12,7 @@ export function HeroSection() {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center">
         <div className="text-white max-w-2xl">
           <h1 className="text-5xl font-bold mb-6 text-balance">
-            <span className="text-primary">
+            <span className="text-blue-400">
               {" "}
               Empowering Growth, Ensuring Success
             </span>
