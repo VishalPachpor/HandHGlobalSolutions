@@ -78,7 +78,7 @@ export function TeamSection() {
               {m.email && (
                 <div className="mt-4 flex justify-center">
                   <Link
-                    href={`https://mail.google.com/mail/?view=cm&to=${m.email}`}
+                    href={`https://outlook.office.com/mail/deeplink/compose?to=${m.email}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 text-slate-500 hover:text-primary"

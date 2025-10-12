@@ -147,7 +147,7 @@ export function Footer() {
               <div className="flex items-center space-x-3">
                 <Mail className="h-4 w-4 text-blue-400 flex-shrink-0" />
                 <a
-                  href="https://mail.google.com/mail/?view=cm&to=sandeshh.jagdale@outlook.com"
+                  href="https://outlook.office.com/mail/deeplink/compose?to=sandeshh.jagdale@outlook.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-slate-300 hover:text-blue-400 transition-colors"
