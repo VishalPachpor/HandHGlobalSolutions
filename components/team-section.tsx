@@ -1,22 +1,29 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Card } from "@/components/ui/card";
-import { Linkedin } from "lucide-react";
+import { Linkedin, Mail } from "lucide-react";
 
 type TeamMember = {
   name: string;
   role: string;
   imageSrc: string;
   linkedInUrl?: string;
+  email?: string;
 };
 
 export function TeamSection() {
   const members: TeamMember[] = [
     {
       name: "Hrushikesh Dakshinkar",
-      role: "Founding Team / Operations",
+      role: "Founder",
       imageSrc: "/team1.jpg",
       linkedInUrl: "https://www.linkedin.com/in/hrushikesh-dakshinkar08082003/",
+    },
+    {
+      name: "Sandesh Jagdale",
+      role: "Founder",
+      imageSrc: "/sandesh.jpg",
+      email: "sandeshh.jagdale@outlook.com",
     },
   ];
 
@@ -65,6 +72,20 @@ export function TeamSection() {
                   >
                     <Linkedin className="h-4 w-4" />
                     <span className="text-sm">LinkedIn</span>
+                  </Link>
+                </div>
+              )}
+              {m.email && (
+                <div className="mt-4 flex justify-center">
+                  <Link
+                    href={`https://mail.google.com/mail/?view=cm&to=${m.email}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 text-slate-500 hover:text-primary"
+                    aria-label={`Email ${m.name}`}
+                  >
+                    <Mail className="h-4 w-4" />
+                    <span className="text-sm">Email</span>
                   </Link>
                 </div>
               )}
