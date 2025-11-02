@@ -12,7 +12,10 @@ export function CompanyDescription() {
               Your Strategic Partner for Operational Excellence At HS Global
               Services, we meet you where you are understanding your unique
               challenges and delivering tailored solutions that drive measurable
-              success. With deep expertise across Mortgage, Insurance, Banking
+              success. With deep expertise across{" "}
+              <span className="font-semibold uppercase">
+                Mortgage, Banking, and Insurance
+              </span>
               and Finance, Healthcare, Digital Services, Logistics, and Customer
               Support, we architect solutions that adapt to your evolving needs
               and dynamic market conditions.

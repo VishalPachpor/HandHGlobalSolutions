@@ -10,7 +10,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 export const metadata: Metadata = {
   title: "H&S Global Services",
   description:
-    "Professional mortgage, banking, and insurance consultancy services. Expert financial guidance for your business needs.",
+    "Professional Mortgage, Banking, and Insurance consultancy services. Expert financial guidance for your business needs.",
   generator: "Vishal Patil",
   icons: {
     icon: "/image.png",

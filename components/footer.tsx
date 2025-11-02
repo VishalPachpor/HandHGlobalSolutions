@@ -18,7 +18,10 @@ export function Footer() {
                 priority
               />
               <p className="text-slate-300 text-sm leading-relaxed">
-                Your trusted partner in mortgage, banking, and insurance
+                Your trusted partner in{" "}
+                <span className="font-semibold uppercase">
+                  Mortgage, Banking, and Insurance
+                </span>
                 solutions. We provide expert financial guidance to help you
                 achieve your goals.
               </p>
