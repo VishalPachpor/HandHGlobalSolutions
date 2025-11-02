@@ -134,15 +134,11 @@ export function Footer() {
             <div className="space-y-3 text-sm">
               <div className="flex items-start space-x-3">
                 <MapPin className="h-4 w-4 text-blue-400 mt-0.5 flex-shrink-0" />
-                <span className="text-slate-300">
-                  123 Financial District
-                  <br />
-                  New York, NY 10004
-                </span>
+                <span className="text-slate-300">Pune Maharashtra India</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="h-4 w-4 text-blue-400 flex-shrink-0" />
-                <span className="text-slate-300">+1 (555) 123-4567</span>
+                <span className="text-slate-300">+91 83292 21120</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-4 w-4 text-blue-400 flex-shrink-0" />
