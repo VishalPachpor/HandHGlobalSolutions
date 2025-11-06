@@ -19,12 +19,7 @@ export function TeamSection() {
       imageSrc: "/team1.jpg",
       linkedInUrl: "https://www.linkedin.com/in/hrushikesh-dakshinkar08082003/",
     },
-    {
-      name: "Sandesh Jagdale",
-      role: "Founder",
-      imageSrc: "/sandesh.jpeg",
-      email: "sandeshh.jagdale@outlook.com",
-    },
+    
   ];
 
   const isSingle = members.length === 1;
